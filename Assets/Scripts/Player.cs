@@ -21,27 +21,24 @@ public class Player
     [SerializeField] List<MonopolyNode> myMonopolyNodes = new List<MonopolyNode>();
 
     //informacion del jugador
-    
+
+    //ia
+    int aiMoneySavity = 200;
+
+    PlayerInfo myInfo;
+    // Retorno de informacion
 
     public bool IsInJail => isInJail;
     public GameObject MyToken => myToken;
     public MonopolyNode MyMonopolyNode => currentnode;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //ia
-    int aiMoneySavity = 200;
+    public void Initialize(MonopolyNode startNode, int startMoney, PlayerInfo info)
+    {
+        currentnode = startNode;
+        money = startMoney;
+        myInfo = info;
+        myInfo.SetPlayerNameAndCash(name, money);
+    }
 
 
 }
