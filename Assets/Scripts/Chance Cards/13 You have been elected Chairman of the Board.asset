@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64244777bdc4ba24a996684c915caf13, type: 3}
+  m_Name: 13 You have been elected Chairman of the Board
+  m_EditorClassIdentifier: 
+  textOnCard: "\xA1Felicidades! Eres el nuevo presidente del juego<br><br><color=red>Dale
+    $50 varos a cada jugador.</color> "
+  rewardMoney: 0
+  penaltyMoney: 50
+  moveToBoardIndex: -1
+  payToPlayer: 1
+  nextRailroad: 0
+  nextUtility: 0
+  moveStepsBackwards: 0
+  goToJail: 0
+  jailFreeCard: 0
+  streetRepairs: 0
+  streetRepairsHousePrice: 25
+  streetRepairsHotelPrice: 100

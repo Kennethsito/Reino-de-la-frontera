@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monopoly Atlas_0
+      name: Mortgage
       rect:
         serializedVersion: 2
         x: 59
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monopoly Atlas_1
+      name: Railroad
       rect:
         serializedVersion: 2
         x: 571
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monopoly Atlas_4
+      name: House
       rect:
         serializedVersion: 2
         x: 2204
@@ -295,7 +295,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monopoly Atlas_10
+      name: Utiility
       rect:
         serializedVersion: 2
         x: 592
@@ -750,9 +750,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Monopoly Atlas_0: -690413396
-      Monopoly Atlas_1: -775276947
-      Monopoly Atlas_10: 569925590
+      House: 1556039250
       Monopoly Atlas_11: -421558804
       Monopoly Atlas_12: -968691296
       Monopoly Atlas_13: -335677952
@@ -775,12 +773,14 @@ TextureImporter:
       Monopoly Atlas_29: 1866812564
       Monopoly Atlas_3: -1277001501
       Monopoly Atlas_30: 1759437525
-      Monopoly Atlas_4: 1556039250
       Monopoly Atlas_5: 530252485
       Monopoly Atlas_6: 2060937323
       Monopoly Atlas_7: 687273162
       Monopoly Atlas_8: 1276668666
       Monopoly Atlas_9: 636177228
+      Mortgage: -690413396
+      Railroad: -775276947
+      Utiility: 569925590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
